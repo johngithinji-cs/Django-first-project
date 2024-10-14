@@ -21,6 +21,7 @@ def details(request, id):
 def main(request):
   template = loader.get_template('main.html')
   return HttpResponse(template.render())
+<<<<<<< HEAD
 
 def testing(request):
   template = loader.get_template('template.html')
@@ -28,3 +29,5 @@ def testing(request):
     'fruits': ['Apple', 'Banana', 'Cherry'],   
   }
   return HttpResponse(template.render(context, request))
+=======
+>>>>>>> origin/master
